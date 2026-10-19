@@ -20,7 +20,7 @@ Kortix is model-agnostic. You can use any model provider with your own keys, the
 
 ## What does Kortix cost to self-host versus the managed cloud?
 
-Self-host is free, and you pay only your own compute and model bills. On Kortix Cloud, free is $0 with 200 credits per month and 1 project, and the team plan is $40 per seat per month with 2,500 credits per month per seat, pooled. Usage beyond the pooled balance is extra. The current numbers are on the [Kortix pricing page](https://kortix.com/pricing).
+Self-host is free, and you pay only your own compute and model bills. On Kortix Cloud, free is $0 with 200 credits per month and 1 project. Paid plans start at $50 a month for 5,000 credits, and members are free, sharing one credit pool. The current numbers are on the [Kortix pricing page](https://kortix.com/pricing).
 
 ## Does an agent's work land without a person reviewing it?
 
