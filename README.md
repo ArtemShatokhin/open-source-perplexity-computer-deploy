@@ -34,7 +34,7 @@ The tunnel URL changes on every restart, so use it for evaluation rather than pr
 
 The `researcher` agent performs research and returns a written brief as a file in the repo. The `morning-brief` trigger is a cron schedule that starts a session with no person present; the `research-webhook` trigger starts the same agent on a signed webhook. When the brief is ready, the agent opens a change request, and you read it as a diff before anything merges. Session work reaches `main` through a change request, and merge is default-deny for agents. The definition side, what the hosted product actually is, is the site's [what is a Perplexity Computer](https://opensourceperplexitycomputer.com/what-is-a-perplexity-computer) explainer.
 
-Each session gets its own isolated sandbox and its own branch. The agent reaches 3,000+ apps in a click, plus MCP, OpenAPI, Postman, GraphQL and raw HTTP, and connector credentials are brokered server-side and never enter the machine. You pick the model per agent, per session or per message: any model provider with your own keys, or the ChatGPT plan you already pay for, or sign in with your OpenCode Console account for OpenCode Zen and Go.
+Each session gets its own isolated sandbox and its own branch. Connector credentials are brokered server-side and never enter the machine.
 
 ## Open source Perplexity Computer alternatives
 
@@ -70,4 +70,4 @@ The campaign site expands on this repository with sourced comparisons and setup 
 
 ## Get started
 
-Already running the hosted product? The [migration guide](https://opensourceperplexitycomputer.com/migrate-from-perplexity-computer) sequences the exit, and the [limitations rundown](https://opensourceperplexitycomputer.com/perplexity-computer-limitations) sets expectations on both sides before you move. Self-host is free, and managed Kortix Cloud starts at $40 per seat per month plus usage; current numbers are on the [Kortix pricing page](https://kortix.com/pricing). Start from one job on one host, then grow. Try [Kortix](https://kortix.com), read the [Kortix docs](https://kortix.com/docs), or read the code at [Kortix on GitHub](https://github.com/kortix-ai/suna).
+Already running the hosted product? The [migration guide](https://opensourceperplexitycomputer.com/migrate-from-perplexity-computer) sequences the exit, and the [limitations rundown](https://opensourceperplexitycomputer.com/perplexity-computer-limitations) sets expectations on both sides before you move. Self-host is free, and managed Kortix Cloud has a free tier at $0 with 200 credits per month and 1 project, while paid plans start at $50 a month for 5,000 credits, and members are free, sharing one credit pool; current numbers are on the [Kortix pricing page](https://kortix.com/pricing). Start from one job on one host, then grow. Try [Kortix](https://kortix.com), read the [Kortix docs](https://kortix.com/docs), or read the code at [Kortix on GitHub](https://github.com/kortix-ai/suna).
