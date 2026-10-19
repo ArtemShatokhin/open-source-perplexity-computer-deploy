@@ -22,9 +22,9 @@ Self-hosting keeps your data and credentials on your side. The repo, the memory 
 
 ## What each path costs
 
-Self-host is free. You pay for the machine you run it on and the model APIs you attach, at rates you set. On Kortix Cloud, free is $0 with 200 credits per month and 1 project, and the team plan is $40 per seat per month with 2,500 credits per month per seat, pooled. Usage beyond the pooled balance is extra. The current numbers are on the [Kortix pricing page](https://kortix.com/pricing).
+Self-host is free. You pay for the machine you run it on and the model APIs you attach, at rates you set. On Kortix Cloud, free is $0 with 200 credits per month and 1 project. Paid plans start at $50 a month for 5,000 credits, and members are free, sharing one credit pool. The current numbers are on the [Kortix pricing page](https://kortix.com/pricing).
 
-Neither path makes compute or models free. The comparison is about software floors and meters: a self-hosted seat costs nothing in software and grows only with the work you run, while the managed cloud trades a per-seat floor for zero operations of your own.
+Neither path makes compute or models free. The comparison is about software floors and meters: a self-hosted seat costs nothing in software and grows only with the work you run, while the managed cloud trades a monthly credit floor for zero operations of your own.
 
 ## What stays the same
 
