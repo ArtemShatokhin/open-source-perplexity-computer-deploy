@@ -64,6 +64,7 @@ The campaign site expands on this repository with sourced comparisons and setup 
 - [Open source Perplexity Computer alternatives](https://opensourceperplexitycomputer.com/alternatives)
 - [Kortix vs Perplexity Computer](https://opensourceperplexitycomputer.com/kortix-vs-perplexity-computer)
 - [What Perplexity Computer costs](https://opensourceperplexitycomputer.com/perplexity-computer-pricing)
+- [Perplexity's Portable Computer, and the open-source answer](https://opensourceperplexitycomputer.com/perplexity-portable-computer)
 - [Self-hosting walkthrough](https://opensourceperplexitycomputer.com/self-hosting)
 - [Perplexity Computer review](https://opensourceperplexitycomputer.com/perplexity-computer-review)
 - [Open source Perplexity Computer FAQ](https://opensourceperplexitycomputer.com/faq)
