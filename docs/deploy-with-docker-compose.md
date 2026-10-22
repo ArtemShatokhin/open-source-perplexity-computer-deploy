@@ -6,7 +6,7 @@ Kortix is the open-source AI Operating System, and it self-hosts as one Docker C
 
 A Kortix instance is a single Docker Compose stack. The frontend serves the dashboard, the API holds project state and serves the public `/v1` routes, and the LLM gateway authenticates model-provider requests server-side. A Supabase distribution provides the database, auth, storage, and the object store the API archives config into. The bundled Caddy proxy terminates TLS on ports 80 and 443.
 
-Agent sessions do not run in this stack. Each session runs on a separate sandbox provider, so a laptop-sized host can run the control plane while the agents work on cloud machines. The default provider is Daytona, and Platinum and E2B are also supported. You set the provider key with `kortix self-host configure`.
+Agent sessions do not run in this stack. Each session runs on a separate sandbox provider, so a laptop-sized host can run the control plane while the agents work on cloud machines. Platinum is the default provider, and Daytona remains available as a legacy fallback. You set the provider key with `kortix self-host configure`.
 
 ## Install the CLI and initialize
 
